@@ -6,6 +6,7 @@
       "name": "stock-master-monorepo",
       "devDependencies": {
         "@types/bun": "latest",
+        "typescript": "5.9.3",
       },
       "peerDependencies": {
         "typescript": "^5",
@@ -13,12 +14,7 @@
     },
     "packages/domain": {
       "name": "domain",
-      "devDependencies": {
-        "@types/bun": "latest",
-      },
-      "peerDependencies": {
-        "typescript": "^5",
-      },
+      "version": "0.0.1",
     },
   },
   "packages": {
