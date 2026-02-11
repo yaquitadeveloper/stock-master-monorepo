@@ -23,3 +23,23 @@ Este paquete contiene la lógica de negocio pura de Stock Master B2B.
 ## 📋 Comandos
 - Test: `bun test`
 - Build: `bun run build`
+
+---
+
+## 📊 Estado del Proyecto
+
+**Última actualización:** 11-Feb-2026
+
+### ✅ Completado
+- Value Objects: `Money`, `UnitOfMeasure`, `Sku` (81 tests pasando)
+- Estructura TDD con `bun:test`
+- Validaciones de negocio implementadas
+
+### 🚧 En Progreso
+- Entity `Product` (pendiente implementar)
+
+### 📋 Backlog
+1. Entity `Product` con presentaciones y precio base
+2. Domain Service: `PricingService` (cálculo por volumen)
+3. Entity `Order` y `OrderLine`
+4. Repository interfaces
